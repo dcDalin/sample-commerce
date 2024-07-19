@@ -123,7 +123,7 @@ async function checkout() {
     alert("Checkout successful!");
   } catch (error) {
     console.error("Error during checkout:", error);
-    alert("Checkout failed. Please try again.");
+    alert("Checkout failed. Please try again later.");
   }
 }
 
