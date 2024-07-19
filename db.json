@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Ruiru Thrift",
+      "price": 1000,
+      "bought": false,
+      "onOffer": false,
+      "image": "Ruiruthrift.png"
+    },
+    {
+      "id": 2,
+      "name": "Nairobi Thrift",
+      "price": 1200,
+      "bought": false,
+      "onOffer": false,
+      "image": "nairobithrift.png"
+    },
+    {
+      "id": 3,
+      "name": "Thrift Thrift",
+      "price": 1300,
+      "bought": false,
+      "onOffer": false,
+      "image": "thriftworld.png"
+    },
+    {
+      "id": 4,
+      "name": "Thrift World",
+      "price": 500,
+      "bought": false,
+      "onOffer": false,
+      "image": "thriftthrift.png"
+    },
+    {
+      "id": 5,
+      "name": "Kags Thrift",
+      "price": 999,
+      "bought": false,
+      "onOffer": true,
+      "image": "kagsthrift.png"
+    },
+    {
+      "id": 6,
+      "name": "Fine Lable",
+      "price": 999,
+      "bought": false,
+      "onOffer": true,
+      "image": "finelable.png"
+    },
+    {
+      "id": 7,
+      "name": "Thrift World",
+      "price": 999,
+      "bought": false,
+      "onOffer": true,
+      "image": "thriftthrift.png"
+    },
+    {
+      "id": 8,
+      "name": "Budget Wear",
+      "price": 999,
+      "bought": false,
+      "onOffer": true,
+      "image": "budgetwear.png"
+    }
+  ]
+}
