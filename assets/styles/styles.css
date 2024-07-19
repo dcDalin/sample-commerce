@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e9c216;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0; /* Set top and bottom padding */
+}
+
+.container {
+  padding: 0 100px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 80px; /* Set the height of the logo */
+  margin-right: 20px; /* Set the right margin of the logo */
+  align-items: center;
+}
+
+.logo-text {
+  color: #0c60b9;
+  margin: 0;
+  font-size: 60px; /* Set the font size of the logo text */
+  align-items: center;
+}
+
+.logo-text h4 {
+  margin: 0;
+  color: #1c19ee;
+  font-size: 40px; /* Set the font size of the logo description */
+  align-content: end;
+  padding: 20px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: blue;
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 20px; /* Set the font size of navigation links */
+  box-sizing: content-box;
+}
+
+.account-cart {
+  display: flex;
+  align-items: center;
+}
+
+.account-cart a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px; /* Set the font size of account and cart links */
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.highlights,
+.offers {
+  margin-bottom: 40px;
+}
+
+h2 {
+  background-color: #0000ff;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 24px; /* Set the font size of section headers */
+}
+
+.highlight-cards,
+.offer-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card,
+.offer-card {
+  background-color: #f1f1ed;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px; /* Set the width of the cards */
+}
+
+.card img,
+.offer-card img {
+  width: 100%;
+  border-radius: 20px;
+  height: 70px 10px; /* Set the height of the card images */
+}
+
+.card p,
+.offer-card p {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 14px; /* Set the font size of card text */
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px; /* Set the font size of buttons */
+}
+
+button:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-images img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.cart-total {
+  display: flex;
+  padding: 10px;
+  font-size: 20px;
+}
+
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+.bought {
+  text-decoration: line-through;
+}

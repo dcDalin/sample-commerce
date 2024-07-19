@@ -6,7 +6,7 @@
       "price": 1000,
       "bought": false,
       "onOffer": false,
-      "image": "Ruiruthrift.png"
+      "image": "assets/images/Ruiruthrift.png"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "price": 1200,
       "bought": false,
       "onOffer": false,
-      "image": "nairobithrift.png"
+      "image": "assets/images/nairobithrift.png"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "price": 1300,
       "bought": false,
       "onOffer": false,
-      "image": "thriftworld.png"
+      "image": "assets/images/thriftworld.png"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "price": 500,
       "bought": false,
       "onOffer": false,
-      "image": "thriftthrift.png"
+      "image": "assets/images/thriftthrift.png"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "price": 999,
       "bought": false,
       "onOffer": true,
-      "image": "kagsthrift.png"
+      "image": "assets/images/kagsthrift.png"
     },
     {
       "id": 6,
@@ -46,7 +46,7 @@
       "price": 999,
       "bought": false,
       "onOffer": true,
-      "image": "finelable.png"
+      "image": "assets/images/finelable.png"
     },
     {
       "id": 7,
@@ -54,7 +54,7 @@
       "price": 999,
       "bought": false,
       "onOffer": true,
-      "image": "thriftthrift.png"
+      "image": "assets/images/thriftthrift.png"
     },
     {
       "id": 8,
@@ -62,7 +62,7 @@
       "price": 999,
       "bought": false,
       "onOffer": true,
-      "image": "budgetwear.png"
+      "image": "assets/images/budgetwear.png"
     }
   ]
 }

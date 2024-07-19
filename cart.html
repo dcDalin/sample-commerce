@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thrifty</title>
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container container">
+        <div>
+          <div class="logo">
+            <img src="assets/images/logo.png" alt="Thrifty Logo" />
+            <h1 class="logo-text">Thrifty</h1>
+          </div>
+          <p>Thrifting at the click of a button</p>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="offers.html">Offers</a>
+          <a href="aboutus.html">About Us</a>
+          <a href="help.html">Help</a>
+        </nav>
+        <div class="account-cart">
+          <a href="#" class="account">Account</a>
+          <a href="cart.html" class="cart"
+            >Cart (<span id="cart-count"></span>)</a
+          >
+          <i class="cart-icon">🛒</i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <table id="cart"></table>
+
+        <div id="cart-total" class="cart-total"></div>
+        <div class="cart-total">
+          <button onclick="checkout()">Checkout</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-images">
+        <img src="assets/images/tiktok.png" alt="tiktok" />
+        <p>@Thrifty</p>
+        <img src="assets/images/facebook.png" alt="facebook" />
+        <p>@Thrifty</p>
+        <img src="assets/images/snapchat.png" alt="snapchat" />
+        <p>@Thrifty</p>
+      </div>
+    </footer>
+
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
